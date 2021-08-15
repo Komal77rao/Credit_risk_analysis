@@ -47,7 +47,7 @@ The precision for high_risk is low in all the models. This indicates that there 
 
 The recall is high for both high-risk and low_risk, which indicates that the model will identify all the correct individuals for high risk and low_risk, except for the ClusterCentroid classification model as the recall for high_risk is low.
 
-In this case, recall is more important than precision as it is better to have more False Positives in trade off to have less False Negatives, in other words it is safer to identify low_risk individuals as hig_risk compared to identifying indivuals which are high_risk as low_risk.
+In this case, recall is more important than precision as it is better to have more False Positives then to have less False Negatives, in other words it is safer to identify low_risk individuals as hig_risk compared to identifying indivuals which are high_risk as low_risk.
 
 
 
